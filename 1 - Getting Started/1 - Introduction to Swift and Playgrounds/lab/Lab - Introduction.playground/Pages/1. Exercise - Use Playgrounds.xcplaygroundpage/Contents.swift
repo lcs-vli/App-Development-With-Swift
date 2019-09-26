@@ -15,7 +15,7 @@ print("How Far I'll go is preformed by the singer Auliʻi Cravalho in the movie 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-print("My favourite lyrics of the song are: I've been staring at the edge of the water. 'Long as I can remember, never really knowing why. I wish I could be the perfect daughter. But I come back to the water, no matter how hard I try. Every turn I take, every trail I track. Every path I make, every road leads back. To the place I know, where I can not go, where I long to be.")
+print("My favourite lyrics of the song are: I've been staring at the edge of the water. 'Long as I can remember, never really knowing why. I wish I could be the perfect daughter. But I come back to the water, no matter how hard I try. Every turn I take, every trail I track. Every path I make, every road leads back. To the place I know, where I can not go, where I long to be")
 
 
 /*:
