@@ -7,12 +7,11 @@
  */
 let stepGoal = 10000
 let steps = 3948
-
-if steps < stepGoal / 2 {
-    print("Almost halfway!")
-} else {
-    print("Over halfway!")
-}
+var percentOfStep: String
+let a = "Almost halfway!"
+let b = "Over halfway!"
+percentOfStep = steps < stepGoal / 2 ? a : b
+print(percentOfStep)
 
 
 /*:
