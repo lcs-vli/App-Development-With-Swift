@@ -21,9 +21,9 @@ if nameInCaps  == name {
  - "<INSERT LOWERCASED VERSION OF `nameInCaps` HERE> and <INSERT LOWERCASED VERSION OF `name` HERE> are not the same."
  */
 if nameInCaps.lowercased() == name.lowercased(){
-    print("\(nameInCaps.lowercased) and \(name.lowercased) are the same.")
+    print("\(nameInCaps) and \(name) are the same.")
 }else{
-    print("\(nameInCaps.lowercased)and \(name.lowercased) are not the same.")
+    print("\(nameInCaps)and \(name) are not the same.")
 }
 
 /*:
@@ -38,13 +38,13 @@ print(junior.hasSuffix("Jr"))
 import Foundation
 let textToSearchThrough = "To be, or not to be--that is the question"
 let textToSearchFor = "to be, or not to be"
-if textToSearchThrough.contains("to be, or not to be"){
+if textToSearchThrough.lowercased().contains("to be, or not to be") {
     print("I found it!")
-}else if textToSearchThrough
+}
 
 /*:
  Print to the console the number of characters in your name by using the `count` property on `name`.
  */
-
-
+let myName = "Victoria"
+print(name.count)
 //: [Previous](@previous)  |  page 4 of 5  |  [Next: App Exercise - Password Entry and User Search](@next)
